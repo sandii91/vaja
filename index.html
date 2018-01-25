@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	  
+    <![endif]-->
+
+  
+  </head>
+  <body>
+   <div class="navbar navbar-default navbar-fixed-top" role="navigation"><!--orodn vrstica-->
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		  <span class="sr-only">Navigacijar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+	  </button>
+		
+	 </div>
+		<div class="navbar-collapse collapse"><!--podatki v orodni vrstici-->
+			<ul class="nav navbar-nav navbar-left">
+				<li class="action"><a href="#domov">Domov</a></li>
+				<li><a href="#galerija" data-toggle="modal">Galerija</a></li>
+				<li><a href="#kontakt" data-toggle="modal">Kontakt</a></li>
+		    </ul>
+	</div>
+   </div>
+   </div> 
+ 
+      <!-- za okno na sredini jumbotron okno -->
+	<div class ="container">
+		<div class="jumbotron text-center">
+		<a href="#" class="thumbnail">
+		<img src="slike/logotip.jpg">
+		</a>
+		
+		
+		
+	</div>
+		<div class="row"><!--majhni meniji na sredini strani -->
+		<div class="col-sm-4"><!--prvi okvirček-->
+			<a href="usb.html" class="home-thumbnail">
+			<img src="slike/usb.jpg">
+			</a>
+			<h3>USB 3.0</h3>
+			<p>Opis:
+			USB 3.0 pomnilniški medij za prenos podatkov
+Diamantni patent, glossy izgled, zelo trendovski in eleganten
+Kompakten in tanek, zatič za shranjevanje pokrovčka, sistem za pritjevanje na trak
+USB 3.0 prenos podatkov in podpora tudi na 2.0/1.1 protokolu
+Ne potrebuje dodatnih gonilnikov
+Polnjenje preko USB vmesnika
+Operacijski sistemi: Windows XP/2000/Vista/7, MAC OS 10.4 in LINUX 2.6.33 ali novejši
+Kapaciteta: 64Gb
+Barva: Črna</p>
+	<a href="usb.html" class="btn btn-danger">Preglej</a>
+		</div>
+	<div class="col-sm-4"><!--drugo okno-->
+	<a href="#" class="home-thumbnail">
+		<img src="slike/knjiga.jpg">
+		</a>
+		<h3>Knjiga</h3>
+		<p>Novak Đoković, Usain Bolt in Neymar - komplet treh žepnih knjig
+Komplet treh vrhunskih biografij: Novak Đoković, Usain Bolt in Neymar</p>
+	<a href="#" class="btn btn-danger">Preglej</a>
+ 		</div>
+	  <div class="col-sm-4">
+	  <a href="#" class="home-thumbnail">
+	  <img src="slike/smučanje.jpg">
+	  </a>
+		<h3>Smučanje</h3><!--tretje okno-->
+			<p>Komplet 5-ih CELODNEVNIH smučarskih kart za STARI VRH
+Smučišče Stari vrh predstavlja osrednji zimskošportni turistični center Škofjeloškega hribovja,
+ ki je od Ljubljane oddaljeno 35 km in je s svojimi 55 hehtari smučarskih prog, na nadmorski višini od 580m do 1217m, 
+ primerno za vse zahtevnostne ravni smučarjev – od začetnikov, srednje izkušenih do vrhunskih smučarjev in tekmovalcev.</p>
+	     <a href="#" class="btn btn-danger">Preglej</a>
+		 </div>
+		 
+
+
+	</div>
+   <!--futter---->
+   <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+		<div class="container"
+			<p>@2018</p>
+		  </div>
+		</div>
+
+   
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   
+			<!-- za uporabo gumba galerija-->
+			
+						</div>
+			<div class="modal fade" id="galerija" role="dialog"><!--prva slika-->
+				<div class="gallery">
+					<a target="blank" href="slike/smučanje.jpg">
+						<img src="slike/smučanje.jpg" width="500" height="100">
+					</a>
+				</div>
+				
+				<!--druga slika-->
+				<div class="gallery">
+					<a target="blank" href="slike/usb.jpg">
+						<img src="slike/usb.jpg" width="500" height="100">
+					</a>
+				</div>
+				
+				<!--tretja slika-->
+				<div class="gallery">
+					<a target="blank" href="slike/knjiga.jpg">
+						<img src="slike/knjiga.jpg" width="500" height="100">
+					</a>
+				</div>
+
+	          <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#zapri">Zapri
+			</button>
+	  </div>
+	 
+	 
+	  
+
+	
+	<!--za uporabo gumba kontakt-->
+		<div class="modal fade" id="kontakt" role="dialog">
+		<div class="modal-dialog">
+		 <div class="modal-content">
+		  <div class="modal-header">
+			<h1><strong>Kontaktirajte nas</strong></h1>
+	
+		     </div>
+			 <div class="modal-header text-right">
+				<a class="btn btn-danger" data-dismiss="modal">Zapri</a>
+			</div>
+			  <div class="row">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d22208.789274184546!2d13.818416343017175!3d45.90933726294622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ssl!2ssi!4v1516569340267" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+			<div class="col-sm-4">
+			<h4><strong>Stopi v stik z nami</strong></h4>
+		</div>
+	   
+		<form>
+			<div class="form-group">
+				<input type="text" class="form-control" name="" value="" placeholder="Ime">
+			<div>
+			
+			<div class="form-group">
+			<input type="email" class="form-control" name="" value="" placeholder="E-mail">
+			</div>
+			
+			<div class="form-group">
+			<textarea class="form-control" name="" row="4" placeholder="sporočilo"></textarea>
+			</div>	
+			<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#poslji">Pošlji
+			</button>
+		<div id="poslji" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+			
+				<div class="modal-content text-center">
+				
+					<h4><strong>Vaše sporočilo je bilo uspešno poslano</strong></h4>
+				  
+	 </form>
+	 <button class="btn btn-yellow" type="Hvala" name="button">
+				<i class="fa fa-paper-plane-o" aria-hidden="true"></i>Hvala
+			</button>
+         </div>
+	   </div>
+	  </div>
+	 </div>
+	</div>
+
+
+
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
